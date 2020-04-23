@@ -1,0 +1,8 @@
+Flask
+gunicorn
+scikit-learn
+numpy
+pandas
+scipy
+google-api-python-client
+google-auth
