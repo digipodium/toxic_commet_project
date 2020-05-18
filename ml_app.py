@@ -24,7 +24,6 @@ basepath = os.path.abspath(os.getcwd())  # important for server to find models f
 
 with open(basepath + '/models/tfidf_vectorizer_train.pkl', 'rb') as tfidf_file:
         tfidf_model = pickle.load(tfidf_file)
-
 with open(basepath + '/models/logistic_toxic.pkl', 'rb') as logistic_toxic_file:
     logistic_toxic_model = pickle.load(logistic_toxic_file)
 with open(basepath + '/models/logistic_severe_toxic.pkl', 'rb') as logistic_severe_toxic_file:
